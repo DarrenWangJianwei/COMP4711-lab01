@@ -1,0 +1,53 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 40px;
+}
+.searchBar{
+    border:0.5px solid rgb(197, 189, 189,.4);
+    margin: auto;
+    width: 50%;
+}
+.searchBarTitle{
+    padding: 10px;
+}
+.searchBarTitle h4{
+    margin:10px;
+}
+.searchBarContent{
+    margin:20px;
+    margin-top:0px;
+}
+.searchBarContent input{
+    width:300px;
+}
+.ArtistList{
+    border:0.5px solid rgb(197, 189, 189,.4);
+    margin: auto;
+    width: 40%;
+}
+.eachArtist{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    border:0.5px solid rgb(197, 189, 189,.4);
+}
+.eachArtist:hover{
+    background-color: antiquewhite;
+}
+.eachArtistImg{
+    margin:8px;
+    border:0.5px solid rgb(197, 189, 189,.4);
+}
+.eachArtistContent{
+    margin-top:8px;
+}
+.eachArtistContent h5{
+    margin:0px;
+    font-size:1.2em;
+    font-family: 'Sofia';
+}
+.eachArtistContent p{
+    margin:0px;
+    font-size:0.8em;
+    color:grey;
+}
