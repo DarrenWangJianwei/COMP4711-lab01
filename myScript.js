@@ -1,6 +1,5 @@
 function showAddArtistContent(){
     var addArtistContent = document.getElementsByClassName("addArtistContent");
-    console.log(addArtistContent);
     if (addArtistContent[0].style.display === 'block') {
         addArtistContent[0].style.display = 'none';
     } else {
