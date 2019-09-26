@@ -85,7 +85,7 @@ ul li{
     text-align: center;
 }
 .removeButton{
-   float:right;
+   float:left;
 }
 input{
     text-align: center;
