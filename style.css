@@ -18,7 +18,10 @@ body {
     margin-top:0px;
 }
 .searchBarContent input{
-    width:300px;
+    width:100%;
+}
+.searchBarContent form{
+    width: 80%;
 }
 .ArtistList{
     border:0.5px solid rgb(197, 189, 189,.4);
@@ -50,4 +53,42 @@ body {
     margin:0px;
     font-size:0.8em;
     color:grey;
+}
+.searchBarContent{
+    display:flex;
+}
+#addArtist{
+    margin-left:10px;
+}
+.addArtistContent{
+    border:0.5px solid rgb(197, 189, 189,.4);
+    margin: auto;
+    width: 40%;
+}
+ul{
+    list-style-type: none;
+}
+.addArtistContent{
+    display:none;
+}
+button{
+    height:30px;
+    width:80px;
+    border-radius: 8px;
+    background-color: #f44336;
+    color:white;
+}
+ul{
+    padding-inline-start:0px;
+}
+ul li{
+    text-align: center;
+}
+.removeButton{
+   float:right;
+}
+input{
+    text-align: center;
+    color:grey;
+    border-radius: 4px;
 }
