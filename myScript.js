@@ -10,7 +10,8 @@ function showAddArtistContent(){
 function add(){
     var inputName = document.getElementById("artistName").value;
     var inputAbout = document.getElementById("aboutArtist").value;
-    
+    console.log(inputName.length);
+    console.log(inputAbout.length);
     if(inputName.length<=40&&inputAbout.length<=40){
         var inputURL = document.getElementById("imageUrl").value;
         var divEachArtist = document.createElement('div');
