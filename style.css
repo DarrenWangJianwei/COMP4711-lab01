@@ -60,6 +60,9 @@ body {
 #addArtist{
     margin-left:10px;
 }
+#searchArtist{
+    margin-left:5px;
+}
 .addArtistContent{
     border:0.5px solid rgb(197, 189, 189,.4);
     margin: auto;
